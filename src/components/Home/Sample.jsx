@@ -32,7 +32,7 @@ const Sample = () => {
         }
     ];
     return (
-        <section style={{ padding: '0 1rem' }} className="w-full min-h-screen px-4 md:px-6 py-10 md:py-16 flex flex-col items-center bg-white">
+        <section style={{ padding: '0 1rem', margin: '3rem 0' }} className="w-full sm:h-[80vh] px-4 md:px-6 py-10 md:py-16 flex flex-col items-center bg-white">
             {/* NDA Notice */}
             <div data-aos="fade-up" className="max-w-3xl mx-auto mb-8 md:mb-12 px-2 md:px-4 mt-4 md:mt-8">
                 <p className="text-center text-base md:text-lg text-gray-700 leading-relaxed">
@@ -41,7 +41,7 @@ const Sample = () => {
             </div>
 
             {/* Section Heading */}
-            <h2 data-aos="fade-up" className="text-xl md:text-3xl mt-4 md:mt-16 mb-6 md:mb-8 font-serif font-medium text-center">
+            <h2 style={{ margin: '2rem 0' }} data-aos="fade-up" className="text-xl md:text-2xl mt-4 md:mt-16 mb-6 md:mb-8 font-serif font-medium text-center">
                 Some samples of my work
             </h2>
 

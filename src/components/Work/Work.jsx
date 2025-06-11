@@ -84,7 +84,7 @@ const Work = () => {
                 <div style={{ marginTop: '1rem' }} className="animate-fadeInUp">
                     <Link
                         style={{ padding: '0.5rem 2rem', fontSize: '1rem', marginBottom: '3rem' }}
-                        to="/contact"
+                        to="/realContact"
                         className="inline-block bg-pink-300 text-white font-medium rounded-md hover:bg-pink-400 transition-colors duration-300"
                     >
                         Contact

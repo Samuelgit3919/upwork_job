@@ -5,7 +5,7 @@ import other1 from '../../assets/other1.png';
 
 const OthersDetail = () => {
   return (
-    <div style={{ margin: '0 auto', marginTop: '6rem' }} className="container mx-auto px-4 py-12 mt-24 flex flex-col items-center ">
+    <div style={{ margin: '0 auto', marginTop: '6rem', padding: '0 1rem' }} className="container mx-auto px-4 py-12 mt-24 flex flex-col items-center ">
 
       {/* Back to Home Link */}
       <Link to="/work" style={{ marginTop: '0rem', marginBottom: '2rem' }} className='text-pink-400  text-center flex justify-center items-center hover:text-pink-300 transition-colors'>
@@ -89,7 +89,7 @@ const OthersDetail = () => {
         <div style={{ marginTop: '1rem' }} className="animate-fadeInUp">
           <Link
             style={{ padding: '0.5rem 2rem', fontSize: '1rem', marginBottom: '3rem' }}
-            to="/contact"
+            to="/realContact"
             className="inline-block bg-pink-300 text-white font-medium rounded-md hover:bg-pink-400 transition-colors duration-300"
           >
             Contact

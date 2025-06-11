@@ -11,7 +11,7 @@ const RealContact = () => {
     }, []);
 
     return (
-        <section className="w-full min-h-screen bg-white py-16 px-4 flex flex-col items-center justify-center gap-12">
+        <section style={{ margin: '0 auto', marginTop: '2rem' }} className="w-full min-h-screen bg-white py-16 px-4 flex flex-col items-center justify-center gap-12">
             <div className="max-w-4xl text-center mx-auto px-4 flex flex-col gap-5">
                 <h1 data-aos="fade-down" className="text-4xl font-bold">
                     Contact
@@ -25,8 +25,10 @@ const RealContact = () => {
                 </p>
             </div>
 
-            {/* Contact Cards */}
-            <div className="flex flex-col md:flex-row flex-wrap justify-center gap-8 w-full max-w-6xl mt-8">
+            <div
+                style={{ margin: '0 auto' }}
+                className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-8 w-full max-w-6xl mt-8"
+            >
                 {/* Email */}
                 <div data-aos="zoom-in" className="flex-1 min-w-[250px] flex flex-col items-center max-w-[300px]  text-center transition-transform hover:scale-105">
                     <img

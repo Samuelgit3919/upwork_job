@@ -21,14 +21,14 @@ const SofaDetail = () => {
             </Link>
 
             {/* Main Heading */}
-            <div style={{ margin: '0 auto', marginTop: '2rem' }} className="text-center mb-12 flex flex-col items-center gap-6">
+            <div style={{ margin: '0 auto', marginTop: '2rem', paddingBottom: '2rem' }} className="text-center mb-12 flex flex-col items-center gap-6">
                 <h2 className="text-[24px] text-[#3F3F3F]  mb-2">sofatutor.com</h2>
                 <h3 className="text-[24px] font-medium text-[#666666]">Infopage - Effective Numbers redesign (UX-UI)</h3>
             </div>
 
             {/* Context Section */}
             <div className="w-full max-w-5xl text-left py-10">
-                <h5 className="text-2xl mb-4">Context:</h5>
+                <h5 className="text-xl mb-4">Context:</h5>
                 <p className="text-lg text-gray-700 leading-relaxed">
                     Sofa is a design concept application focused on providing a delightful user experience for home furniture shopping. This case study outlines the design process, challenges, and solutions.
                 </p>
@@ -47,7 +47,7 @@ const SofaDetail = () => {
 
             {/* Lo-fi Wireframes Section */}
             <div style={{ margin: '4rem 0' }} className="w-full max-w-5xl text-left mt-16">
-                <h5 className="text-2xl mb-4">Lo-fi Wireframes:</h5>
+                <h5 className="text-xl mb-4">Lo-fi Wireframes:</h5>
                 <p className="text-lg text-gray-700 leading-relaxed">
                     Initial wireframes were sketched to determine the application's flow, focusing on user-friendly navigation and layout.
                 </p>
@@ -94,7 +94,7 @@ const SofaDetail = () => {
                 <div style={{ marginTop: '1rem' }} className="animate-fadeInUp">
                     <Link
                         style={{ padding: '0.5rem 2rem', fontSize: '1rem', marginBottom: '3rem' }}
-                        to="/contact"
+                        to="/realContact"
                         className="inline-block bg-pink-300 text-white font-medium rounded-md hover:bg-pink-400 transition-colors duration-300"
                     >
                         Contact

@@ -2,7 +2,7 @@ import { ArrowLeftIcon } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import super1 from '../../assets/fly1.png';
-import super2 from '../../assets/fly2.png';
+// import super2 from '../../assets/fly2.png';
 import super3 from '../../assets/super3.png';
 
 const SuperFlyDetail = () => {
@@ -21,12 +21,12 @@ const SuperFlyDetail = () => {
             {/* Main Heading */}
             <div style={{ margin: '0 auto' }} className="text-center flex flex-col gap-8 mb-12">
                 <h4 className="text-xl md:text-2xl text-[#3F3F3F] mb-2">White Hat Gaming</h4>
-                <h4 className="text-xl md:text-2xl font-medium text-[#C4C4C4]">Superfly - Rebranding (UI)</h4>
+                <h4 style={{ marginBottom: '2rem' }} className="text-xl md:text-2xl font-medium text-[#C4C4C4]">Superfly - Rebranding (UI)</h4>
             </div>
 
             {/* Context Section */}
             <div className="w-full max-w-5xl text-left py-10">
-                <h5 className="text-2xl md:text-xl mb-4">Context:</h5>
+                <h5 className="text-xl md:text-xl mb-4">Context:</h5>
                 <p className="text-[24px] md:text-xl text-gray-700 leading-relaxed">
                     Superfly partners was a website designed while I was working in White Hat Gaming.
                     The main goal of this project was the re-branding of the company's partner site.
@@ -49,7 +49,7 @@ const SuperFlyDetail = () => {
 
             {/* Redesign Section */}
             <div style={{ margin: '4rem 0' }} className="w-full max-w-5xl text-left mt-16">
-                <h5 className="text-2xl md:text-xl mb-4">Redesign:</h5>
+                <h5 className="text-xl md:text-xl mb-4">Redesign:</h5>
                 <p className="text-[20px] md:text-[24px] text-gray-700 leading-relaxed">
                     The brand was focusing on a 1970’s disco approach. I was in charge of creating the library,
                     the design system, and designing the site. Designs were provided for desktop and mobile and
@@ -102,7 +102,7 @@ const SuperFlyDetail = () => {
                 <div style={{ marginTop: '1rem' }} className="animate-fadeInUp">
                     <Link
                         style={{ padding: '0.5rem 2rem', fontSize: '1rem', marginBottom: '3rem' }}
-                        to="/contact"
+                        to="/realContact"
                         className="inline-block bg-pink-300 text-white font-medium rounded-md hover:bg-pink-400 transition-colors duration-300"
                     >
                         Contact

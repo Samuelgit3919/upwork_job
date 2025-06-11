@@ -36,7 +36,7 @@ const Event = () => {
     }, []);
 
     return (
-        <section style={{ padding: '0 1rem', margin: '0 auto', marginTop: '3rem' }} className="bg-white flex items-center justify-center mx-auto mr-0">
+        <section style={{ padding: '0 1rem', margin: '0 auto' }} className="bg-white flex items-center justify-center mx-auto mr-0">
             <div className="max-w-screen-lg mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-serif">UX Events</h2>
                 <p style={{ marginTop: '1rem', marginBottom: '4rem' }} className="text-gray-700 text-lg">

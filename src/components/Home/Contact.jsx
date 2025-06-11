@@ -92,7 +92,7 @@ const Contact = () => {
                     </Link>
                 </div>
             </div>
-            <div style={{ marginTop: '4rem' }} className='flex w-[880px] justify-end items-center'>
+            <div style={{ marginTop: '4rem' }} className='flex w-full justify-end items-center'>
                 <nav className="hidden md:flex space-x-8 items-center  h-full gap-8">
                     {navLinks.map(({ path, label }) => (
                         <NavLink
