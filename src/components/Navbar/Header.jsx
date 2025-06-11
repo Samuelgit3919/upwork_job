@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
@@ -13,20 +13,18 @@ const Header = () => {
 
     return (
         <header style={{ margin: '0 auto' }} className="w-full h-[70px] fixed items-center justify-around top-0 left-0 z-50 bg-white shadow-md  shadow-gray-200">
-            <div className=" flex justify-around gap-84 items-center h-full px-4 md:px-0">
+            <div className=" flex justify-between sm:justify-around gap-2 sm:gap-24 items-center h-full px-4 md:px-0">
                 {/* Logo / Name */}
-                <Link to="/" className="flex items-center gap-2">
-                    <h1 style={{ paddingLeft: '1rem' }} className="text-lg md:text-2xl font-bold tracking-tight ">
-                        GALA JIMENEZ MARTINI
-                    </h1>
-                </Link>
+                <h1 style={{ paddingLeft: '1rem' }} className="text-lg md:text-2xl font-bold tracking-tight ">
+                    GALA JIMENEZ MARTINI
+                </h1>
 
                 {/* Hamburger Icon (Mobile only) */}
                 <button
                     className="md:hidden focus:outline-none z-50 relative"
                     onClick={() => setMenuOpen(!menuOpen)}
                     aria-label="Toggle menu"
-                    style={{ paddingRight: '0rem' }}
+                    style={{ paddingRight: '1rem' }}
                 >
                     {menuOpen ? <X size={28} /> : <Menu size={28} />}
                 </button>
