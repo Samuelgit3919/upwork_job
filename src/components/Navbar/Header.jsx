@@ -13,9 +13,9 @@ const Header = () => {
 
     return (
         <header style={{ margin: '0 auto' }} className="w-full h-[70px] fixed items-center justify-around top-0 left-0 z-50 bg-white shadow-md  shadow-gray-200">
-            <div className="max-w-7xl flex justify-around gap-64  items-center h-full px-4 md:px-0">
+            <div className=" flex justify-around gap-84 items-center h-full px-4 md:px-0">
                 {/* Logo / Name */}
-                <h1 style={{ paddingLeft: '2rem' }} className="text-lg md:text-2xl font-bold tracking-tight ">
+                <h1 style={{ paddingLeft: '1rem' }} className="text-lg md:text-2xl font-bold tracking-tight ">
                     GALA JIMENEZ MARTINI
                 </h1>
 
@@ -24,7 +24,7 @@ const Header = () => {
                     className="md:hidden focus:outline-none z-50 relative"
                     onClick={() => setMenuOpen(!menuOpen)}
                     aria-label="Toggle menu"
-                    style={{ paddingRight: '1rem' }}
+                    style={{ paddingRight: '0rem' }}
                 >
                     {menuOpen ? <X size={28} /> : <Menu size={28} />}
                 </button>
