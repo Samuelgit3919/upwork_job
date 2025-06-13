@@ -8,12 +8,13 @@ import SofatutorDetail from './components/Work/SofatutorDetail'
 import OthersDetail from './components/Work/OthersDetail'
 import Layout from './components/Home/Layout'
 import RealContact from './components/Contact/RealContact'
+import ScrollToTop from './ScrollToTop'
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
-
       <Routes>
         <Route path='/' element={<Layout />} />
         <Route path='/work' element={<Work />} />

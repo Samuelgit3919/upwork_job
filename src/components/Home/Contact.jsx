@@ -16,14 +16,14 @@ const Contact = () => {
 
     return (
         <section className="w-full min-h-screen bg-white py-16 px-4 flex flex-col items-center justify-center gap-12">
-            <div className="max-w-4xl text-center mx-auto px-4 flex flex-col gap-5">
-                <h1 data-aos="fade-down" className="text-4xl font-bold">
+            <div className="max-w-4xl text-[#5E5E5E] text-center mx-auto px-4 flex flex-col  gap-5">
+                <h1 data-aos="fade-down" className="text-[24px] text-[#000000]  font-[400]">
                     Contact
                 </h1>
-                <h2 data-aos="fade-up" className="text-2xl font-semibold">
+                <h2 data-aos="fade-up" className="text-[24px] text-[#666666] font-[400]">
                     Let's Create Something Cool ⚡
                 </h2>
-                <p data-aos="fade-up" className="text-gray-600 leading-relaxed">
+                <p data-aos="fade-up" className="text-[#000000] text-[20px] font-[400]  leading-relaxed">
                     Feel free to reach out and let's kickstart a conversation – whether you have a project in mind,
                     questions about UX, or just want to connect. Your ideas and inquiries are always welcome!
                 </p>
@@ -31,7 +31,7 @@ const Contact = () => {
 
             <div
                 style={{ margin: '0 auto' }}
-                className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-8 w-full max-w-6xl mt-8"
+                className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-10 w-full max-w-6xl mt-8"
             >
                 {/* Email */}
                 <div data-aos="zoom-in" className="flex-1 min-w-[250px] flex flex-col items-center max-w-[300px]  text-center transition-transform hover:scale-105">
@@ -43,10 +43,10 @@ const Contact = () => {
                         className="mx-auto mb-4"
                         loading="lazy"
                     />
-                    <h4 className="text-xl font-semibold mb-2">Email Address</h4>
+                    <h4 className="text-[#666666] text-[20px] font-semibold mb-2">Email Address</h4>
                     <Link
                         to="mailto:galajimenezm@gmail.com"
-                        className="text-gray-600 hover:text-gray-800 transition-colors"
+                        className="text-[#000000] text-[20px] transition-colors"
                     >
                         galajimenezm@gmail.com
                     </Link>
@@ -62,10 +62,10 @@ const Contact = () => {
                         className="mx-auto mb-4"
                         loading="lazy"
                     />
-                    <h4 className="text-xl font-semibold mb-2">Phone</h4>
+                    <h4 className="text-[20px] text-[#666666] font-semibold mb-2">Phone</h4>
                     <Link
                         to="tel:+34744643220"
-                        className="text-gray-600 hover:text-gray-800 transition-colors"
+                        className="text-[#000000] text-[20px] transition-colors"
                     >
                         +34 744 643 220
                     </Link>
@@ -81,18 +81,19 @@ const Contact = () => {
                         className="mx-auto mb-4"
                         loading="lazy"
                     />
-                    <h4 className="text-xl font-semibold mb-2">LinkedIn</h4>
+                    <h4 className="text-[20px] text-[#666666] font-semibold mb-2">LinkedIn</h4>
                     <Link
                         to="http://linkedin.com/in/galajimenezmartini"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800 transition-colors"
+                        className="text-[#000000] text-[20px] transition-colors"
                     >
                         galajimenezmartini
                     </Link>
                 </div>
             </div>
-            <div style={{ marginTop: '4rem' }} className='flex w-full justify-end items-center'>
+
+            <div style={{ marginTop: '4rem', paddingRight: '10rem' }} className='flex w-full text-[20px] justify-end items-center'>
                 <nav className="hidden md:flex space-x-8 items-center  h-full gap-8">
                     {navLinks.map(({ path, label }) => (
                         <NavLink

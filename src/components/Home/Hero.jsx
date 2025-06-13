@@ -3,23 +3,23 @@ import HeroImg from "../../assets/heroImg.png";
 
 const Hero = () => {
     return (
-        <section style={{ margin: '0 auto', marginTop: '3rem', padding: '0 1rem' }} className="mt-12 min-h-screen relative px-4 sm:px-6 md:px-16 lg:px-32 py-12 bg-white rounded-2xl flex items-center justify-center">
-            <div style={{ margin: '0 auto' }} className="flex flex-col-reverse md:flex-row items-center justify-center sm:justify-around gap-12 md:gap-24 w-full ">
+        <section style={{ margin: '0 auto', padding: '0 1rem' }} className="mt-12 min-h-screen sm:relative top-22 sm:top-0 px-4 sm:px-6 md:px-16 lg:px-32 py-12 bg-white rounded-2xl flex items-center justify-center">
+            <div style={{ margin: '0 auto' }} className="flex flex-col-reverse md:flex-row items-start sm:items-start justify-center sm:justify-start gap-12 md:gap-24 w-full ">
 
                 {/* Text Content */}
-                <article className="max-w-2xl   w-full fadeInUp animationDelay-1">
+                <article className="max-w-2xl  w-full fadeInUp animationDelay-1">
                     <div className="mb-2">
-                        <span className="text-xl sm:text-2xl md:text-3xl font-light text-gray-400">hi <span role='img' aria-label='wave'>👋</span></span>
+                        <span className="text-[28px] font-light text-gray-400">hi <span role='img' aria-label='wave'>👋</span></span>
                     </div>
                     <h1 style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }} className="leading-tight mt-8 mb-12">
-                        <span className="block text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-700">
-                            I'm <span className="text-pink-400">Gala</span>
+                        <span className="block text-4xl sm:text-5xl md:text-6xl  text-gray-700">
+                            I'm <span className="text-[#DB7F97]">Gala</span>
                         </span>
                     </h1>
-                    <p className="text-base sm:text-lg text-gray-700 mb-8">
+                    <p className="text-[20px] text-gray-700 mb-8">
                         Let's cut to the chase — here's what you're probably looking for:
                     </p>
-                    <ul className="space-y-4 text-gray-800 text-base sm:text-lg pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-16">
+                    <ul className="space-y-4 text-gray-800 text-[20px] flex flex-col gap-[16px] pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-16">
                         <li className="flex items-start gap-2 fadeInUp animationDelay-2">
                             <span role="img" aria-label="brain">🧠</span>
                             <span>Senior Product Designer with 5+ years of experience</span>
@@ -49,14 +49,14 @@ const Hero = () => {
                             </span>
                         </li>
                         <li className="flex items-start gap-2 fadeInUp animationDelay-8">
-                            <span role="img" aria-label="coffee">☕</span>
+                            <span role="img" aria-label="coffee">🤓</span>
                             <span>Fueled by curiosity, coffee, and the occasional "what if we tried this..." moment</span>
                         </li>
                     </ul>
                 </article>
 
                 {/* Image Content */}
-                <div className="w-full max-w-xs sm:max-w-sm md:max-w-md flex justify-center items-center fadeInUp animationDelay-1">
+                <div className="w-[449px] h-[449px] max-w-xs sm:max-w-sm md:max-w-md flex justify-center items-center fadeInUp animationDelay-1">
                     <img
                         src={HeroImg}
                         alt="Portrait of Gala Jimenez Martini"

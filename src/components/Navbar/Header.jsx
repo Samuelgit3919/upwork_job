@@ -12,11 +12,11 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header style={{ margin: '0 auto' }} className="w-full h-[70px] fixed items-center justify-around top-0 left-0 z-50 bg-white shadow-md  shadow-gray-200">
-            <div className=" flex justify-between sm:justify-around gap-2 sm:gap-24 items-center h-full px-4 md:px-0">
+        <header className="w-full h-[70px] fixed items-center justify-around top-0 left-0 z-50 bg-white shadow-md  shadow-gray-200">
+            <div style={{ margin: '0 auto', paddingLeft: '2rem' }} className="max-w-[1241px] flex justify-between sm:justify-between gap-2 sm:gap-24 items-center h-full px-4 md:px-0">
                 {/* Logo / Name */}
                 <Link to="/" className="flex items-center gap-2">
-                    <h1 style={{ paddingLeft: '1rem' }} className="text-lg md:text-2xl font-bold tracking-tight ">
+                    <h1 className="text-[20px]  tracking-tight ">
                         GALA JIMENEZ MARTINI
                     </h1>
                 </Link>
@@ -32,14 +32,14 @@ const Header = () => {
                 </button>
 
                 {/* Desktop Nav */}
-                <nav className="hidden md:flex space-x-8  items-center h-full gap-8">
+                <nav style={{ paddingRight: '10rem' }} className="hidden text-[20px] md:flex space-x-8  items-center font-[400] h-full gap-6">
                     {navLinks.map(({ path, label }) => (
                         <NavLink
                             key={label}
                             to={path}
                             className={({ isActive }) =>
                                 isActive
-                                    ? 'text-pink-400 font-bold'
+                                    ? 'text-pink-400 font-[700]'
                                     : 'text-gray-700 hover:text-pink-400'
                             }
                         >
