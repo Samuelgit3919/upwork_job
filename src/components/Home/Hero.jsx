@@ -19,7 +19,7 @@ const Hero = () => {
                     <p className="text-[20px] text-gray-700 mb-8">
                         Let's cut to the chase — here's what you're probably looking for:
                     </p>
-                    <ul className="space-y-4 text-gray-800 text-[20px] flex flex-col gap-[16px] pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-16">
+                    <ul className="space-y-4 text-gray-800 text-[20px] flex flex-col gap-[8px] pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-16">
                         <li className="flex items-start gap-2 fadeInUp animationDelay-2">
                             <span role="img" aria-label="brain">🧠</span>
                             <span>Senior Product Designer with 5+ years of experience</span>
