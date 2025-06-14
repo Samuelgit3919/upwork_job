@@ -15,7 +15,7 @@ const RealContact = () => {
     }, [])
 
     return (
-        <section className="w-full min-h-screen bg-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-16 flex flex-col relative top-22 sm:top-0 items-center justify-center gap-8 md:gap-12 max-w-[1600px] mx-auto mb-8 md:mb-16">
+        <section style={{ padding: '0 1rem' }} className="w-full min-h-screen bg-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-16 flex flex-col relative top-22 sm:top-0 items-center justify-center gap-8 md:gap-12 max-w-[1600px] mx-auto mb-8 md:mb-16">
             <div className="max-w-4xl text-[#5E5E5E] text-center mx-auto px-4 flex flex-col  gap-5">
                 <h1 data-aos="fade-down" className="text-[24px] text-[#000000]  font-[400]">
                     Contact

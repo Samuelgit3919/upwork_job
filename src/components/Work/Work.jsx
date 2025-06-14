@@ -25,7 +25,7 @@ const Work = () => {
     ];
 
     return (
-        <div style={{ margin: '0 auto', marginTop: '8rem', padding: '0 1rem' }} className="min-h-screen max-w-[1220px] text-center py-10 px-4 md:px-8 lg:px-16 flex flex-col">
+        <div style={{ margin: '0 auto', marginTop: '6rem', padding: '0 1rem' }} className="min-h-screen max-w-[1220px] text-center py-10 px-4 md:px-8 lg:px-16 flex flex-col">
             {/* Back to Home Link */}
             <Link to="/" style={{ marginTop: '0rem', marginBottom: '2rem' }} className='text-[#DB7F97] text-[18px] text-center flex justify-center items-center hover:text-pink-300 transition-colors'>
                 <ArrowLeftIcon className='w-8 h-4' />
@@ -70,7 +70,7 @@ const Work = () => {
                     </div>
                 ))}
             </div>
-
+{/* google.com/s2/favicons?domain_url= */}
             {/* Call to Action */}
             <div style={{ margin: '0 auto', marginTop: '4rem' }} className='flex text-center items-center flex-col gap-6'>
                 <div className="animate-fadeInUp">

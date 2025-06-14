@@ -3,7 +3,7 @@ import HeroImg from "../../assets/heroImg.png";
 
 const Hero = () => {
     return (
-        <section style={{ margin: '0 auto', padding: '0 1rem' }} className="mt-12 min-h-screen sm:relative top-22 sm:top-0 px-4 sm:px-6 md:px-16 lg:px-32 py-12 bg-white rounded-2xl flex items-center justify-center">
+        <section style={{ margin: '0 auto', padding: '0 1rem' }} className="mt-12 min-h-screen sm:relative top-22 sm:top-6 px-4 sm:px-6 md:px-16 lg:px-32 py-12 bg-white rounded-2xl flex items-center justify-center">
             <div style={{ margin: '0 auto' }} className="flex flex-col-reverse md:flex-row items-start sm:items-start justify-center sm:justify-start gap-12 md:gap-24 w-full ">
 
                 {/* Text Content */}
