@@ -38,8 +38,8 @@ const Event = () => {
     return (
         <section style={{ padding: '0 1rem', margin: '0 auto' }} className="bg-white flex items-center justify-center mx-auto mr-0">
             <div className="max-w-screen-lg mx-auto text-center">
-                <h2 className="text-[24px] sm:text-[36px] font-serif">UX Events</h2>
-                <p style={{ marginTop: '1rem', marginBottom: '4rem' }} className="text-gray-700 text-[24px] sm:text-[32px]">
+                <h2 className="text-[24px]  font-[400]">UX Events</h2>
+                <p style={{ marginTop: '1rem', marginBottom: '6rem' }} className="text-[#666666] text-[24px]">
                     Whenever I have the chance I like to share my knowledge of UX as much as possible.
                     Below you can find some events I participated in.
                 </p>
@@ -60,11 +60,8 @@ const Event = () => {
                                 />
                             </div>
                             <div className="w-full h-56 md:h-auto md:w-1/2 text-center flex flex-col items-center md:items-center justify-center md:justify-start">
-                                <h3 style={{ marginTop: '1rem', marginBottom: '1rem' }} className="font-semibold text-center text-[24px]">{event.title}</h3>
-                                <p style={{ marginTop: '1rem', marginBottom: '1rem' }} className="text-gray-600 text-[18px] whitespace-pre-line max-w-xl">{event.description}</p>
-                                {/* <a href={event.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 text-center hover:text-blue-700">
-                                    {event.link ? 'Watch the YouTube video here or listen on Spotify' : ''}
-                                </a> */}
+                                <h3 style={{ marginTop: '1rem', marginBottom: '1rem' }} className="font-[400] text-[#000000] text-center text-[24px]">{event.title}</h3>
+                                <p style={{ marginTop: '1rem', marginBottom: '1rem' }} className="text-[#666666] text-[18px] whitespace-pre-line max-w-xl">{event.description}</p>
                             </div>
                         </div>
                     ))}

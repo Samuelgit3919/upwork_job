@@ -42,7 +42,7 @@ const Work = () => {
             </div>
 
             {/* Work Samples */}
-            <h2 style={{ margin: '2rem 0' }} className="text-[24px] font-[400] text-center mb-8 font-serif">
+            <h2 style={{ margin: '2rem 0' }} className="text-[24px] font-[400] mt-4 md:mt-16 mb-6 md:mb-8 font-Nunito text-center">
                 Some samples of my work
             </h2>
 
@@ -59,10 +59,10 @@ const Work = () => {
                                 />
                             </Link>
                         </div>
-                        <h3 className="mt-4 text-lg md:text-xl font-semibold text-gray-800 text-start ">
+                        <h3 className="mt-4 text-lg md:text-xl font-[400] text-[#000000] text-start ">
                             <Link
                                 to={item.link}
-                                className="text-[24px] text-[#666666] transition-colors"
+                                className="text-[20px] text-[#000000] transition-colors"
                             >
                                 {item.title}
                             </Link>

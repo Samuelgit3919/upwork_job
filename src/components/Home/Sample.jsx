@@ -35,13 +35,13 @@ const Sample = () => {
         <section style={{ padding: '0 1rem', margin: '3rem 0' }} className="w-full sm:h-[80vh] px-4 md:px-6 py-10 md:py-16 flex flex-col items-center bg-white">
             {/* NDA Notice */}
             <div data-aos="fade-up" className="max-w-3xl mx-auto mb-8 md:mb-12 px-2 md:px-4 mt-4 md:mt-8">
-                <p className="text-center text-[20px] text-gray-700 leading-relaxed">
+                <p className="text-center text-[20px] text-[#000000] font-[400] leading-relaxed">
                     Please be aware that I am unable to showcase certain designs due to non-disclosure agreements (NDAs). Feel free to contact me directly if you're interested in reviewing any newer designs that haven't been updated here yet.
                 </p>
             </div>
 
             {/* Section Heading */}
-            <h2 style={{ margin: '2rem 0' }} data-aos="fade-up" className="text-[24px] font-[400] mt-4 md:mt-16 mb-6 md:mb-8 font-serif text-center">
+            <h2 style={{ margin: '2rem 0' }} data-aos="fade-up" className="text-[24px] font-[400] mt-4 md:mt-16 mb-6 md:mb-8 font-Nunito text-center">
                 Some samples of my work
             </h2>
 
@@ -59,10 +59,10 @@ const Sample = () => {
                                 />
                             </Link>
                         </div>
-                        <h3 className="mt-4 text-lg md:text-xl font-semibold text-gray-800 text-start ">
+                        <h3 className="mt-4 text-lg md:text-xl font-[400] text-[#000000] text-start ">
                             <Link
                                 to={item.link}
-                                className="text-[24px] text-[#666666] transition-colors"
+                                className="text-[20px] text-[#000000] transition-colors"
                             >
                                 {item.title}
                             </Link>
