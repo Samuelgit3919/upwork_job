@@ -1,25 +1,28 @@
 import { ArrowLeftIcon } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import superly from '../../assets/superfly.png';
+import sofatutor from '../../assets/sofatutor.com_.png';
+import others from '../../assets/other-portfolio.png';
 
 const Work = () => {
     const data = [
         {
             title: "Superfly",
             description: "Superfly is a platform for creating and sharing videos.",
-            image: "https://galajm.com/wp-content/uploads/2024/02/superfly.png",
+            image: superly,
             link: "/superfly-detail"
         },
         {
             title: "Sofatutor.com",
             description: "",
-            image: "https://galajm.com/wp-content/uploads/2024/02/sofatutor.com_.png",
+            image: sofatutor,
             link: "/sofatutor-detail"
         },
         {
             title: "Other Projects",
             description: "",
-            image: "https://galajm.com/wp-content/uploads/2024/02/other-portfolio.png",
+            image: others,
             link: "/others-detail"
         }
     ];
@@ -70,7 +73,7 @@ const Work = () => {
                     </div>
                 ))}
             </div>
-{/* google.com/s2/favicons?domain_url= */}
+            {/* google.com/s2/favicons?domain_url= */}
             {/* Call to Action */}
             <div style={{ margin: '0 auto', marginTop: '4rem' }} className='flex text-center items-center flex-col gap-6'>
                 <div className="animate-fadeInUp">

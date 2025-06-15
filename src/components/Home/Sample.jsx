@@ -2,7 +2,9 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
-
+import superly from '../../assets/superfly.png';
+import sofatutor from '../../assets/sofatutor.com_.png';
+import others from '../../assets/other-portfolio.png';
 const Sample = () => {
     useEffect(() => {
         AOS.init({
@@ -15,19 +17,19 @@ const Sample = () => {
         {
             title: "Superfly",
             description: "Superfly is a platform for creating and sharing videos.",
-            image: "https://galajm.com/wp-content/uploads/2024/02/superfly.png",
+            image: superly,
             link: "/superfly-detail"
         },
         {
             title: "Sofatutor.com",
             description: "",
-            image: "https://galajm.com/wp-content/uploads/2024/02/sofatutor.com_.png",
+            image: sofatutor,
             link: "/sofatutor-detail"
         },
         {
             title: "Other Projects",
             description: "",
-            image: "https://galajm.com/wp-content/uploads/2024/02/other-portfolio.png",
+            image: others,
             link: "/others-detail"
         }
     ];

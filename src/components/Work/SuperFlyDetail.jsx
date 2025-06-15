@@ -1,7 +1,9 @@
 import { ArrowLeftIcon } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import super1 from '../../assets/fly1.png';
+import super1 from '../../assets/superOriginal.png';
+import super2 from '../../assets/fly1.png';
+import super4 from '../../assets/fly2.png';
 // import super2 from '../../assets/fly2.png';
 import super3 from '../../assets/super3.png';
 
@@ -37,8 +39,6 @@ const SuperFlyDetail = () => {
                         loading="lazy"
                         height={1650}
                         decoding="async"
-                        srcSet="https://galajm.com/wp-content/uploads/2024/02/full-cream.png 636w, https://galajm.com/wp-content/uploads/2024/02/full-cream-300x167.png 300w"
-                        sizes="(max-width: 635px) 100vw, 636px"
                     />
                 </div>
             </div>
@@ -57,7 +57,7 @@ const SuperFlyDetail = () => {
             <div className="w-full max-w-3xl mt-12 flex flex-col md:flex-row gap-12 items-start justify-start">
                 {/* Mobile Design Image */}
                 <img
-                    src="https://galajm.com/wp-content/uploads/2024/02/superfly-homepage-264x1024.png"
+                    src={super4}
                     alt="Superfly mobile homepage"
                     style={{ margin: '0 auto' }}
                     className="w-full md:w-1/2 object-contain"
@@ -70,7 +70,7 @@ const SuperFlyDetail = () => {
                 {/* Guidelines & Components */}
                 <div className="flex flex-col gap-4 w-full md:w-1/2">
                     <img
-                        src={super1}
+                        src={super2}
                         alt="Superfly guidelines and components"
                         className="w-full object-contain"
                         loading="lazy"

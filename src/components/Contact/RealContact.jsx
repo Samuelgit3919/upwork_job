@@ -4,6 +4,9 @@ import { useEffect } from "react"
 import { Link } from "react-router-dom"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import linkednIcon from "../../assets/linkedin-icon.png"
+import emailIcon from "../../assets/email-address.png"
+import phoneIcon from "../../assets/phone-icon.png"
 
 const RealContact = () => {
     useEffect(() => {
@@ -36,7 +39,7 @@ const RealContact = () => {
                 {/* Email */}
                 <div data-aos="zoom-in" className="flex-1 min-w-[250px] flex flex-col items-center max-w-[300px]  text-center transition-transform hover:scale-105">
                     <img
-                        src="https://galajm.com/wp-content/uploads/2024/02/email-address.png"
+                        src={emailIcon}
                         alt="Email"
                         width={100}
                         height={100}
@@ -55,7 +58,7 @@ const RealContact = () => {
                 {/* Phone */}
                 <div data-aos="zoom-in" data-aos-delay="200" className="flex-1 flex flex-col items-center min-w-[250px] max-w-[300px]  text-center transition-transform hover:scale-105">
                     <img
-                        src="https://galajm.com/wp-content/uploads/2024/02/phone-icon.png"
+                        src={phoneIcon}
                         alt="Phone"
                         width={100}
                         height={100}
@@ -74,7 +77,7 @@ const RealContact = () => {
                 {/* LinkedIn */}
                 <div data-aos="zoom-in" data-aos-delay="400" className="flex-1 min-w-[250px] max-w-[300px] flex flex-col items-center  text-center transition-transform hover:scale-105">
                     <img
-                        src="https://galajm.com/wp-content/uploads/2024/02/linkedin-icon.png"
+                        src={linkednIcon}
                         alt="LinkedIn"
                         width={100}
                         height={100}

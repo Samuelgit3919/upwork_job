@@ -6,6 +6,8 @@ import sof1 from "../../assets/sof1origial.png";
 import sofa2 from "../../assets/sofa2.png";
 import sofa3 from "../../assets/sof3.png";
 import sof7 from '../../assets/sofa7.png';
+import sof5 from '../../assets/sofo5.png';
+import sof4 from '../../assets/sofo4.png';
 
 const SofaDetail = () => {
     return (
@@ -18,7 +20,7 @@ const SofaDetail = () => {
             </Link>
 
             {/* Main Heading */}
-            <div style={{ margin: '0 auto', marginTop: '2rem', paddingBottom: '2rem' }} className="text-center mb-12 flex flex-col items-center gap-6">
+            <div style={{ margin: '0 auto', paddingBottom: '2rem' }} className="text-center mb-12 flex flex-col items-center gap-6">
                 <h2 className="text-[20px] text-[#000000] font-[400]  mb-2">sofatutor.com</h2>
                 <h3 className="text-[20px] font-[medium] text-[#666666]">Infopage - Effective Numbers redesign (UX-UI)</h3>
             </div>
@@ -90,8 +92,8 @@ const SofaDetail = () => {
             {/* Responsive Design Images */}
             <div className='flex flex-col lg:flex-row items-start justify-center gap-8 mt-8 w-full max-w-6xl flex-wrap'>
                 <div style={{ margin: '0 auto' }} className='flex flex-col sm:flex-row justify-center items-center sm:items-start gap-12 w-full lg:w-auto'>
-                    <img src="https://galajm.com/wp-content/uploads/2024/02/original-info-ipad.png" alt="Responsive 1" className="w-[374px] h-[2354px] rounded-md shadow-md" />
-                    <img src="https://galajm.com/wp-content/uploads/2024/02/original-info-mobile.png" alt="Responsive 2" className="w-[246px] h-[2518px] rounded-md shadow-md" />
+                    <img src={sof4} alt="Responsive 1" className="w-[374px] h-[2354px] rounded-md shadow-md" />
+                    <img src={sof5} alt="Responsive 2" className="w-[246px] h-[2518px] rounded-md shadow-md" />
                 </div>
 
                 {/* Back to Home Image Link */}

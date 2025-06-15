@@ -2,6 +2,10 @@ import { ArrowLeftIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import other1 from '../../assets/other1.png';
+import other2 from '../../assets/other2.png';
+import other3 from '../../assets/other3.png';
+import other4 from '../../assets/other4.png';
+import other5 from '../../assets/other5.png';
 
 const OthersDetail = () => {
   return (
@@ -36,7 +40,7 @@ const OthersDetail = () => {
         {/* Image 2 */}
         <div className="w-full overflow-hidden rounded-lg shadow-md">
           <img
-            src="https://galajm.com/wp-content/uploads/2024/02/quick-dent-2.png"
+            src={other2}
             alt="Quick Dent 2"
             className="w-full h-auto object-cover"
           />
@@ -45,7 +49,7 @@ const OthersDetail = () => {
         {/* Image 3 */}
         <div className="w-full overflow-hidden rounded-lg ">
           <img
-            src="https://galajm.com/wp-content/uploads/2024/02/serviper-homepage.png"
+            src={other3}
             alt="Serviper Homepage"
             className="w-full h-auto object-cover"
           />
@@ -54,13 +58,13 @@ const OthersDetail = () => {
         {/* Image 4 */}
         <div className="w-full overflow-hidden">
           <img
-            src="https://galajm.com/wp-content/uploads/2024/02/coozee.png"
+            src={other4}
             alt="Coozee"
             className="w-full h-auto object-cover"
           />
           <div className="w-full overflow-hidden rounded-lg shadow-md col-span-1 sm:col-span-2 lg:col-span-1">
             <img
-              src="https://galajm.com/wp-content/uploads/2024/02/flet-appy.png"
+              src={other5}
               alt="Flet Appy"
               className="w-full h-auto object-cover"
             />
