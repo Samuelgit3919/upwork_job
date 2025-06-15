@@ -63,7 +63,6 @@ const SuperFlyDetail = () => {
                     className="w-full md:w-1/2 object-contain"
                     loading="lazy"
                     decoding="async"
-                    srcSet="https://galajm.com/wp-content/uploads/2024/02/superfly-homepage-264x1024.png 264w, https://galajm.com/wp-content/uploads/2024/02/superfly-homepage-77x300.png 77w"
                     sizes="(max-width: 585px) 100vw, 264px"
                 />
 
