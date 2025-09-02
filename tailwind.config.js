@@ -9,6 +9,9 @@ export default {
       animation: {
         fadeInUp: 'fadeInUp 0.5s ease-out',
       },
+       fontFamily: {
+        outfit: ['"Outfit"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
       keyframes: {
         fadeInUp: {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
