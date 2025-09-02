@@ -34,7 +34,7 @@ const Sample = () => {
         }
     ];
     return (
-        <section style={{ padding: '0 1rem', margin: '3rem 0' }} className="w-full sm:h-[80vh] px-4 md:px-6 py-10 md:py-16 flex flex-col items-center bg-white">
+        <section style={{ padding: '0 1rem', margin: '1rem 0' }} className="w-full sm:h-[80vh] px-4 md:px-6 py-10 md:py-16 flex flex-col items-center bg-white">
             {/* NDA Notice */}
             <div data-aos="fade-up" className="max-w-3xl mx-auto mb-8 md:mb-12 px-2 md:px-4 mt-4 md:mt-8">
                 <p className="text-center text-[20px] text-[#000000] font-[400] leading-relaxed">
