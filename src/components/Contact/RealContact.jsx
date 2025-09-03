@@ -22,7 +22,6 @@ const RealContact = () => {
         padding: "0 1rem"
     }
 
-
     return (
         <section style={style} className="w-full  font-[outfit] min-h-screen bg-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-10 flex flex-col relative top-22 sm:top-0 items-center justify-center gap-8 md:gap-12 max-w-[1241px] mx-auto mb-8 md:mb-16">
             <div className=" text-[#5E5E5E] text-center mx-auto px-4 flex flex-col  gap-3">
