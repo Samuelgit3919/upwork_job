@@ -61,7 +61,7 @@ const Event = () => {
                                 />
                             </div>
                             <div className="w-full h-56 md:h-auto md:w-1/2 text-center flex flex-col font-[outfit] items-center md:items-center justify-center md:justify-start">
-                                <h3 style={{ marginTop: '1rem', marginBottom: '1rem' }} className="font-[400] text-[#000000] text-center  text-[24px]">{event.title}</h3>
+                                <h3 style={{ marginTop: '1rem', marginBottom: '0.5rem' }} className="font-[400] text-[#000000] text-center  text-[24px]">{event.title}</h3>
                                 <p style={{ marginTop: '1rem', marginBottom: '1rem' }} className="text-[#666666] text-[18px] whitespace-pre-line">{event.description}</p>
                                 {index === 2 && (
                                     <p className='text-[#666666] text-[18px] whitespace-pre-line  max-w-[614px]'>Watch the YouTube video <Link className="underline underline-offset-2" to="https://www.youtube.com/watch?v=2akWBmjfEO4">here</Link>  or listen to it on <Link className="underline underline-offset-2 " to="https://open.spotify.com/episode/18dspn3Ah8xZGTLK3jrGh6?si=54441cfcf7ef4e71">Spotify</Link>.</p>
