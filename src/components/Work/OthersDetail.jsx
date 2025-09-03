@@ -4,9 +4,9 @@ import other1 from '../../assets/other1.png';
 import other2 from '../../assets/other2.png';
 import other4 from '../../assets/other4.png';
 import other5 from '../../assets/other5.png';
-import desctopOther from "../../assets/reother1.png"
-import tabletOther from "../../assets/reothertablet.png"
-import mobileOther from "../../assets/reothermobile.png"
+import desctopOther from "../../assets/reOtherDesktop_1.png"
+import tabletOther from "../../assets/reOtherTable_1.png"
+import mobileOther from "../../assets/reOtherMobile_1.png"
 import sof7 from '../../assets/sofa7.png';
 
 
@@ -31,24 +31,50 @@ const OthersDetail = () => {
 
       {/* Image Grid */}
       {/* make it responsive using grid */}
-      <div style={{ marginTop: '4rem' }} className='flex flex-col sm:flex-row items-center justify-center gap-8 p-4'>
-        <div className='overflow-hidden h-[924px] w-[516px] '>
+      <div
+        style={{ marginTop: "4rem" }}
+        className="flex flex-col sm:flex-row items-center justify-center gap-8 p-4"
+      >
+        <div className=" h-auto sm:h-[924px] w-full sm:w-[516px] relative">
+          {/* Link image above desktopOther */}
           <Link
             to="https://www.sofatutor.com/kostenlos-testen"
             target="_blank"
-            className="absolute top-200 transform -translate-x-26"
+            className="absolute bottom-4 right-4 sm:top-108 sm:-translate-x-74 z-20"
           >
-            <img src={sof7} alt="Back to Home" className="w-[290.85px] h-[290.85px] z-10" />
+            <img
+              src={sof7}
+              alt="Back to Home"
+              className="w-[150px] sm:w-[290.85px] h-auto"
+            />
           </Link>
-          <img src={desctopOther} alt="" className='w-full h-auto object-cover' />
+
+          {/* Background image */}
+          <img
+            src={desctopOther}
+            alt=""
+            className="w-full h-auto object-cover rounded-md z-10 relative"
+          />
         </div>
-        <div className='overflow-hidden max-h-[924px] w-[395px] '>
-          <img src={tabletOther} alt="" className='w-full h-auto object-cover' />
+
+        <div className=" h-auto sm:max-h-[924px] w-full sm:w-[395px]">
+          <img
+            src={tabletOther}
+            alt=""
+            className="w-full h-auto object-cover rounded-md"
+          />
         </div>
-        <div className='overflow-hidden h-[924px] w-[240px] '>
-          <img src={mobileOther} alt="" className='w-full h-auto object-cover' />
+
+        <div className=" h-auto sm:h-[924px] w-full sm:w-[240px]">
+          <img
+            src={mobileOther}
+            alt=""
+            className="w-full h-auto object-cover rounded-md"
+          />
         </div>
       </div>
+
+
 
       <div style={{ marginTop: '2rem' }} className="w-full max-w-6xl mt-12 grid grid-cols-1 sm:grid-cols-2  gap-6 px-2 md:px-4">
         {/* Image 1 */}

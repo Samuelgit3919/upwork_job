@@ -54,9 +54,9 @@ const SuperFlyDetail = () => {
             </div>
 
             {/* Images Section */}
-            <div className="w-full max-w-3xl mt-12 flex flex-col md:flex-row gap-12 items-start justify-start">
+            <div style={{ margin: '0 auto' }} className="w-full max-w-3xl mt-12 flex flex-col md:flex-row gap-12 sm:items-start sm:justify-start items-center justify-center">
                 {/* Mobile Design Image */}
-                <div className='border-[5px] rounded-[8px] border-[#DB7F97] w-[424px] h-[806px] overflow-hidden'>
+                <div className='border-[5px] rounded-[8px] border-[#DB7F97] w-[400px] sm:w-[424px] h-[806px] overflow-hidden'>
                     <img
                         src={super4}
                         alt="Superfly mobile homepage"
@@ -69,7 +69,7 @@ const SuperFlyDetail = () => {
                 </div>
 
                 {/* Guidelines & Components */}
-                <div className="flex flex-col gap-4 border-[5px] rounded-[8px] border-[#DB7F97] w-[424px] h-[806px] overflow-hidden">
+                <div className="flex flex-col gap-4 border-[5px] rounded-[8px] border-[#DB7F97] w-[400px] sm:w-[424px] h-[806px] overflow-hidden">
                     <img
                         src={super2}
                         alt="Superfly guidelines and components"
