@@ -9,6 +9,7 @@ import OthersDetail from './components/Work/OthersDetail'
 import Layout from './components/Home/Layout'
 import RealContact from './components/Contact/RealContact'
 import ScrollToTop from './ScrollToTop'
+import About from './components/About/About'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/superfly-detail' element={<SuperFlyDetail />} />
         <Route path='/sofatutor-detail' element={<SofatutorDetail />} />
         <Route path='/others-detail' element={<OthersDetail />} />
+        <Route path='/about' element={<About />} />
         <Route path='/realContact' element={<RealContact />} />
       </Routes>
     </Router>
