@@ -18,7 +18,7 @@ const RealContact = () => {
         })
     }, [])
     const style = {
-        margin: "2rem auto",
+        margin: "0rem auto",
         padding: "0 1rem"
     }
 

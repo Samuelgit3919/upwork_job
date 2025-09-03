@@ -29,8 +29,14 @@ const About = () => {
             link: "/others-detail"
         }
     ];
+
+    const style = {
+        margin: "0 auto",
+        // marginTop: '5rem',
+        padding: "0 1rem"
+    }
     return (
-        <div style={{ margin: "0 auto", marginTop: '5rem', padding: "0 1rem" }} className='max-w-[1241px]'>
+        <div style={style} className='max-w-[1241px] relative top-[6rem] sm:top-[1rem] h-screen mt-[0rem] sm:mt-[5rem]'>
             <div style={{ marginTop: '0rem' }} className="">
                 <section style={{ margin: '0 auto', padding: '0 1rem' }} className="min-h-screen sm:relative top-22 sm:top-6 px-4 sm:px-6  md:px-14 lg:px-30 py-12 bg-white  rounded-2xl flex flex-col items-center justify-center">
                     <h2 style={{ marginBottom: '1rem' }} className="text-[36px] font-normal text-center">A Bit More About Myself</h2>
@@ -98,7 +104,7 @@ const About = () => {
 
             <div>
                 {/* Section Heading */}
-                <h2 style={{ margin: '2rem 0' }} data-aos="fade-up" className="text-[24px] font-normal font-[outfit] text-[#000000] md:text-[24px] mt-4 md:mt-16 mb-6 md:mb-8 font-Nunito text-start">
+                <h2 style={{ margin: '2rem 0', padding: '0 1rem' }} data-aos="fade-up" className="text-[24px] font-normal font-[outfit] text-[#000000] md:text-[24px] mt-4 md:mt-16 mb-6 md:mb-8 font-Nunito text-start">
                     Some samples of my work
                 </h2>
 

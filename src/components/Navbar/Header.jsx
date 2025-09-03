@@ -60,7 +60,7 @@ const Header = () => {
             {/* Mobile Nav sliding from right corner */}
             <nav
                 style={{ padding: '1rem' }}
-                className={`md:hidden fixed top-[70px] w-full bg-white shadow-lg z-50 flex flex-col items-center py-6 h-32 space-y-4 gap-2 transition-transform duration-300 ${menuOpen ? 'translate-x-0' : 'translate-x-[200%]'
+                className={`md:hidden fixed top-[70px] w-full bg-white shadow-lg z-50 flex flex-col items-center py-6 h-42 space-y-4 gap-2 transition-transform duration-300 ${menuOpen ? 'translate-x-0' : 'translate-x-[200%]'
                     }`}
             >
                 {navLinks.map(({ path, label }) => (
