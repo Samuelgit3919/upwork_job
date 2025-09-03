@@ -15,13 +15,13 @@ const SofaDetail = () => {
         <div style={{ margin: '0 auto', marginTop: '6rem', padding: '0 1rem' }} className="container font-[outfit] max-w-[1090px] mx-auto mt-32 px-4 flex flex-col items-center">
 
             {/* Back to Home Link */}
-            <Link to="/work" style={{ marginTop: '0rem', marginBottom: '2rem' }} className='text-[#DB7F97] text-[18px] text-center flex justify-center font-outfit items-center hover:text-pink-300 transition-colors'>
+            <Link to="/work" data-aos="fade-up" style={{ marginTop: '0rem', marginBottom: '2rem' }} className='text-[#DB7F97] text-[18px] text-center flex justify-center font-outfit items-center hover:text-pink-300 transition-colors'>
                 <ArrowLeftIcon className='w-8 h-4' />
                 Back to work
             </Link>
 
             {/* Main Heading */}
-            <div style={{ margin: '0 auto', paddingBottom: '2rem' }} className="text-center mb-12 flex flex-col items-center gap-6">
+            <div data-aos="fade-up" style={{ margin: '0 auto', paddingBottom: '2rem' }} className="text-center mb-12 flex flex-col items-center gap-6">
                 <h2 className="text-[32px] text-[#000000] font-normal  mb-2">sofatutor.com</h2>
                 <h3 className="text-[24px] font-[medium] text-[#666666]">Infopage - Effective Numbers redesign (UX-UI)</h3>
             </div>
@@ -29,8 +29,8 @@ const SofaDetail = () => {
             {/* Context Section */}
             <div className="w-full font-outfit max-w-5xl text-left py-10">
                 <div className="flex flex-col gap-8">
-                    <div>
-                        <h5 className="text-[24px] font-normal">Context:</h5>
+                    <div data-aos="fade-up">
+                        <h5 className="text-[20px] font-normal">Context:</h5>
                         <p className="text-[20px]  font-normal text-gray-700 leading-relaxed">
                             Periodically, sofatutor.com perform research studies to see the effectiveness of our platform on our users, the results are shown in a page called the Infopage.
                         </p>
@@ -42,9 +42,9 @@ const SofaDetail = () => {
 
                 {/* Main Image */}
                 <div style={{ margin: "2rem auto" }} className="mt-6 gap-8 flex flex-col justify-center items-center">
-                    <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8">
-                        <div className="w-full md:w-1/2 flex flex-col justify-center items-start">
-                            <h5 className="text-[24px] font-normal">Ideation Session:</h5>
+                    <div data-aos="fade-up" className="w-full flex flex-col md:flex-row justify-center items-start gap-8">
+                        <div data-aos="fade-up" className="w-full md:w-1/2 flex flex-col justify-center items-start">
+                            <h5 className="text-[20px] font-normal">Ideation Session:</h5>
                             <p className="text-[20px] font-normal text-gray-700 leading-relaxed">
                                 We created an ideation session to get some ideas on how to improve the product. We involved different team members (not only designers) to participate and share their point of view.
                                 In this session, we benchmarked and brainstormed ideas to improve the Infopage.
@@ -59,9 +59,9 @@ const SofaDetail = () => {
                         />
                     </div>
 
-                    <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
-                        <div className="w-full md:w-1/2 flex flex-col justify-center items-start">
-                            <h5 className="text-[24px] font-normal">User Journey:</h5>
+                    <div data-aos="fade-up" className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
+                        <div data-aos="fade-up" className="w-full md:w-1/2 flex flex-col justify-center items-start">
+                            <h5 className="text-[20px] font-normal">User Journey:</h5>
                             <p className="text-[20px] font-normal text-gray-700 leading-relaxed">
                                 I mapped the user journey to understand <span className="font-[600]">how users navigated to a specific section of the site</span>, uncovering insights into how effectively our platform supported children’s learning, while also <span className="font-[600]">evaluating the ease of conversion from that point.</span>
                             </p>
@@ -79,18 +79,18 @@ const SofaDetail = () => {
 
             {/* Low fedality ui Section */}
             <div style={{ margin: '3rem 0' }} className='flex flex-col gap-8'>
-                <div className="w-full max-w-5xl text-left mt-16">
-                    <h5 className="text-[24px] font-normal mb-4">Low-Fidelity UI:</h5>
+                <div data-aos="fade-up" className="w-full max-w-5xl text-left mt-16">
+                    <h5 className="text-[20px] font-normal mb-4">Low-Fidelity UI:</h5>
                     <p className="text-[20px] font-normal text-gray-700 leading-relaxed">
-                        Taking in consideration all the information gathered from the ideation session, I prepared a low fidelity UI with all <span className='font-[600]'>the key elements that the new Infopage should have.</span>
+                        Taking in consideration all the information gathered from the ideation session, I prepared a low fidelity UI with all <br /><span className='font-[600]'>the key elements that the new Infopage should have.</span>
                     </p>
                 </div>
 
-                <div className="w-full max-w-5xl text-left mt-16">
+                <div data-aos="fade-up" className="w-full max-w-5xl text-left mt-16">
                     <h5 className="text-[24px] font-normal mb-4">Final UI:</h5>
                     <p className='text-[20px] font-normal text-gray-700 leading-relaxed'>After the approval of the low-fi mockup I worked on a high fidelity design.</p>
                     <p className="text-[20px] font-[600] text-gray-700 leading-relaxed">
-                        This design took in consideration all the elements that answered the main goal we had during the ideation session
+                        This design took in consideration all the elements that answered the main goal we had during the ideation <br /> session.
                     </p>
                 </div>
             </div>
@@ -99,7 +99,7 @@ const SofaDetail = () => {
             <div className="flex flex-col lg:flex-row items-start justify-center gap-6 mt-8 w-full max-w-6xl flex-wrap">
                 <div className="flex flex-col sm:flex-row lg:flex-row justify-center items-center lg:items-start gap-6 w-full">
                     {/* Left Column */}
-                    <div className="flex flex-col sm:flex-row lg:flex-col gap-6 items-center lg:items-start">
+                    <div data-aos="zoom-in" className="flex flex-col sm:flex-row lg:flex-col gap-6 items-center lg:items-start">
                         <div className="w-full sm:w-auto">
                             <h2 style={{ marginBottom: '1rem' }} className="text-center text-[#666666] font-normal  text-[14px] sm:text-[16px] font-[outfit] mb-4">
                                 1. Original Infopage
@@ -128,14 +128,14 @@ const SofaDetail = () => {
                             3. Final UI
                         </h2>
                         <div className="flex flex-col sm:flex-row gap-6 items-center">
-                            <div className="w-full max-w-[246px] h-auto overflow-hidden">
+                            <div data-aos="zoom-in" data-aos-delay="200" className="w-full max-w-[246px] h-auto overflow-hidden">
                                 <img
                                     src={mobileInfo}
                                     alt="Responsive 2"
                                     className="w-full border-[5px] border-[#DB7FA4] rounded-[8px] shadow-md"
                                 />
                             </div>
-                            <div className="relative w-full max-w-[503px]">
+                            <div data-aos="zoom-in" data-aos-delay="400" className="relative w-full max-w-[503px]">
                                 <img
                                     src={Finalui}
                                     alt="Responsive 1"
@@ -160,7 +160,7 @@ const SofaDetail = () => {
 
 
             {/* Call to Action */}
-            <div style={{ margin: '0 auto', marginTop: '4rem' }} className='flex text-center items-center flex-col gap-6'>
+            <div data-aos="fade-up" style={{ margin: '0 auto', marginTop: '4rem' }} className='flex text-center items-center flex-col gap-6'>
                 <div className="animate-fadeInUp">
                     <h3 className="text-[24px] text-[#000000] font-normal">Let's Create Something Extraordinary ⚡</h3>
                 </div>

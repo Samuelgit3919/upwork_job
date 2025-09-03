@@ -50,7 +50,7 @@ const RealContact = () => {
     return (
         <section style={style} className="w-full  font-[outfit] min-h-screen bg-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-10 flex flex-col relative top-22 sm:top-0 items-center justify-center gap-8 md:gap-12 max-w-[1241px] mx-auto mb-8 md:mb-16">
             <div className=" text-[#5E5E5E] text-center mx-auto px-4 flex flex-col  gap-3">
-                <h1 data-aos="fade-down" className="text-[24px] text-[#666666]  font-[700]">
+                <h1 data-aos="fade-up" className="text-[24px] text-[#666666]  font-[700]">
                     Contact
                 </h1>
                 <h2 data-aos="fade-up" className="text-[20px] sm:text-[24px] text-[#666666]  font-[700]">
@@ -201,7 +201,9 @@ const RealContact = () => {
                 {/* Sample Grid */}
                 <div style={{ margin: '0 auto', marginBottom: "2rem" }} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full ">
                     {data.map((item, index) => (
-                        <div key={index} className="group">
+                        <div data-aos="zoom-in" data-aos-delay={
+                            index === 0 ? "0" : index === 1 ? "200" : index === 2 ? "400" : "0"
+                        } key={index} className="group">
                             <div className="overflow-hidden rounded-md">
                                 <Link to={item.link} title={item.title} className="block">
                                     <img

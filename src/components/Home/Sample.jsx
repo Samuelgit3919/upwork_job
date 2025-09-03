@@ -53,7 +53,7 @@ const Sample = () => {
                 {/* Sample Grid */}
                 <div style={{ margin: '0 auto' }} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full font-[outfit]">
                     {data.map((item, index) => (
-                        <div key={index} className="group">
+                        <div data-aos="fade-up" key={index} className="group">
                             <div className="overflow-hidden rounded-md">
                                 <Link to={item.link} title={item.title} className="block">
                                     <img
