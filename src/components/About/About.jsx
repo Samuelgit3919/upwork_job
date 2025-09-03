@@ -36,7 +36,7 @@ const About = () => {
         padding: "0 1rem"
     }
     return (
-        <div style={style} className='max-w-[1241px] relative top-[6rem] sm:top-[1rem] h-screen mt-[0rem] sm:mt-[5rem]'>
+        <div style={style} className='max-w-[1241px] font-[outfit] relative top-[6rem] sm:top-[1rem] h-screen mt-[0rem] sm:mt-[5rem]'>
             <div style={{ marginTop: '0rem' }} className="">
                 <section style={{ margin: '0 auto', padding: '0 1rem' }} className="min-h-screen sm:relative top-22 sm:top-6 px-4 sm:px-6  md:px-14 lg:px-30 py-12 bg-white  rounded-2xl flex flex-col items-center justify-center">
                     <h2 style={{ marginBottom: '1rem' }} className="text-[36px] font-normal text-center">A Bit More About Myself</h2>
@@ -124,7 +124,7 @@ const About = () => {
                                     />
                                 </Link>
                             </div>
-                            <h3 className="mt-4 text-lg md:text-xl font-normal text-[#000000] text-start ">
+                            <h3 style={{ marginBottom: '3rem' }} className="mt-4 text-lg md:text-xl font-normal text-[#000000] text-start ">
                                 <Link
                                     to={item.link}
                                     className="text-[20px] text-[#000000] transition-colors"
