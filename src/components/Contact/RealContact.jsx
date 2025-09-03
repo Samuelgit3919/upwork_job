@@ -95,7 +95,7 @@ const RealContact = () => {
                         rel="noopener noreferrer"
                         className="text-[#000000] text-[20px] transition-colors"
                     >
-                        galajimenezmartini
+                        linkedin.com/in/galajimenezmartini
                     </Link>
                 </div>
             </div>
