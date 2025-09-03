@@ -51,7 +51,7 @@ const SofaDetail = () => {
                             </p>
                         </div>
                         <img
-                            src={resofa2}
+                            srcSet={resofa2}
                             alt="Sofa design concept"
                             className="w-full md:w-1/2 max-w-[95%] sm:max-w-5xl h-auto mt-8 md:mt-0 rounded-lg shadow-md"
                             loading="lazy"
@@ -67,7 +67,7 @@ const SofaDetail = () => {
                             </p>
                         </div>
                         <img
-                            src={resofa1}
+                            srcSet={resofa1}
                             alt=""
                             className="w-full md:w-1/2"
                             loading="lazy"
@@ -105,9 +105,11 @@ const SofaDetail = () => {
                                 1. Original Infopage
                             </h2>
                             <img
-                                src={originalInfo}
+                                srcSet={originalInfo}
                                 alt="Low Fi UI 1"
                                 className="w-full max-w-[307px] rounded-md"
+                                loading="lazy"
+                                decoding="async"
                             />
                         </div>
                         <div className="w-full sm:w-auto">
@@ -115,10 +117,11 @@ const SofaDetail = () => {
                                 2. First Wireframe
                             </h2>
                             <img
-                                src={Originan_2}
+                                srcSet={Originan_2}
                                 alt="Low Fi UI 1"
                                 className="w-full max-w-[307px] border-[2px] border-[#666666]"
-                            />
+                                loading="lazy"
+                                decoding="async" />
                         </div>
                     </div>
 
@@ -130,26 +133,30 @@ const SofaDetail = () => {
                         <div className="flex flex-col sm:flex-row gap-6 items-center">
                             <div data-aos="zoom-in" data-aos-delay="200" className="w-full max-w-[246px] h-auto overflow-hidden">
                                 <img
-                                    src={mobileInfo}
+                                    srcSet={mobileInfo}
                                     alt="Responsive 2"
                                     className="w-full border-[5px] border-[#DB7FA4] rounded-[8px] shadow-md"
-                                />
+                                    loading="lazy"
+                                    decoding="async" />
                             </div>
                             <div data-aos="zoom-in" data-aos-delay="400" className="relative w-full max-w-[503px]">
                                 <img
-                                    src={Finalui}
+                                    srcSet={Finalui}
                                     alt="Responsive 1"
                                     className="w-full border-[5px] border-[#DB7FA4] rounded-[8px] shadow-md"
-                                />
+                                    loading="lazy"
+                                    decoding="async" />
                                 <Link
                                     to="https://www.sofatutor.com/erfahrungen"
                                     target="_blank"
                                     className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6  md:top-144 md:transform md:translate-x-28"
                                 >
                                     <img
-                                        src={sof7}
+                                        srcSet={sof7}
                                         alt="Back to Home"
                                         className="w-[150px] sm:w-[200px] md:w-[250px] h-auto z-10"
+                                        loading="lazy"
+                                        decoding="async"
                                     />
                                 </Link>
                             </div>

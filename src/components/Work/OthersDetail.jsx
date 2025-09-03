@@ -44,33 +44,37 @@ const OthersDetail = () => {
             className="absolute bottom-4 right-4 sm:top-108 sm:-translate-x-74 z-20"
           >
             <img
-              src={sof7}
+              srcSet={sof7}
               alt="Back to Home"
               className="w-[150px] sm:w-[290.85px] h-auto"
+              loading="lazy"
             />
           </Link>
 
           {/* Background image */}
           <img
-            src={desctopOther}
+            srcSet={desctopOther}
             alt=""
             className="w-full h-auto object-cover rounded-md z-10 relative"
+            loading="lazy"
           />
         </div>
 
         <div data-aos="zoom-in" data-aos-delay="200" className=" h-auto sm:max-h-[924px] w-full sm:w-[395px]">
           <img
-            src={tabletOther}
+            srcSet={tabletOther}
             alt=""
             className="w-full h-auto object-cover rounded-md"
+            loading="lazy"
           />
         </div>
 
         <div data-aos="zoom-in" data-aos-delay="400" className=" h-auto sm:h-[924px] w-full sm:w-[240px]">
           <img
-            src={mobileOther}
+            srcSet={mobileOther}
             alt=""
             className="w-full h-auto object-cover rounded-md"
+            loading="lazy"
           />
         </div>
       </div>
@@ -81,36 +85,40 @@ const OthersDetail = () => {
         {/* Image 1 */}
         <div data-aos="zoom-in" className="w-full overflow-hidden rounded-lg shadow-md">
           <img
-            src={other1}
+            srcSet={other1}
             alt="Quick Dent 1"
             className="w-full h-auto object-cover"
+            loading="lazy"
           />
         </div>
 
         {/* Image 2 */}
         <div data-aos="zoom-in" data-aos-delay="200" className="w-full overflow-hidden rounded-lg shadow-md">
           <img
-            src={other2}
+            srcSet={other2}
             alt="Quick Dent 2"
             className="w-full h-auto object-cover"
+            loading="lazy"
           />
         </div>
 
         {/* Image 3 */}
         <div data-aos="zoom-in" className="w-full h-[428px] overflow-hidden rounded-lg shadow-md col-span-1 sm:col-span-2 lg:col-span-1">
           <img
-            src={other5}
+            srcSet={other5}
             alt="Flet Appy"
             className="w-full h-auto object-cover"
+            loading="lazy"
           />
         </div>
 
         {/* Image 4 */}
         <div data-aos="zoom-in" data-aos-delay="200" className="w-full  overflow-hidden">
           <img
-            src={other4}
+            srcSet={other4}
             alt="Coozee"
             className="w-full h-auto object-cover"
+            loading="lazy"
           />
 
         </div>

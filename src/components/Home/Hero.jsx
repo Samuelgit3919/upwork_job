@@ -22,6 +22,7 @@ const Hero = () => {
                         src={HeroImg}
                         alt="Portrait of Gala Jimenez Martini"
                         className="rounded-xl w-full h-auto object-cover"
+                        loading="lazy"
                     />
                 </div>
             </div>

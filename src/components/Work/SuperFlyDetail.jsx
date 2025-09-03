@@ -33,7 +33,7 @@ const SuperFlyDetail = () => {
                 {/* Full Design Image */}
                 <div style={{ margin: '2rem auto' }} className="mt-6 w-fullz max-w-[635px] flex justify-center">
                     <img
-                        src={super1}
+                        srcSet={super1}
                         alt="Superfly full design"
                         className="w-full mx-auto object-contain"
                         loading="lazy"
@@ -54,11 +54,11 @@ const SuperFlyDetail = () => {
             </div>
 
             {/* Images Section */}
-            <div style={{ margin: '0 auto' }} className="w-full max-w-3xl mt-12 flex flex-col md:flex-row gap-12 sm:items-start sm:justify-start items-center justify-center">
+            <div style={{ padding: '0 1rem' }} className="w-full max-w-3xl mt-12 flex flex-col md:flex-row gap-12 sm:items-start sm:justify-start items-center justify-center">
                 {/* Mobile Design Image */}
-                <div data-aos="zoom-in" className='border-[5px] rounded-[8px] border-[#DB7F97] w-[400px] sm:w-[424px] h-[806px] overflow-hidden'>
+                <div data-aos="zoom-in" className='border-[5px] rounded-[8px] border-[#DB7F97] w-[370px] sm:w-[424px] h-[806px] overflow-hidden'>
                     <img
-                        src={super4}
+                        srcSet={super4}
                         alt="Superfly mobile homepage"
                         style={{ margin: '0 auto' }}
                         className="w-full h-auto object-contain "
@@ -69,9 +69,9 @@ const SuperFlyDetail = () => {
                 </div>
 
                 {/* Guidelines & Components */}
-                <div data-aos="zoom-in" data-aos-delay="200" className="flex flex-col gap-4 border-[5px] rounded-[8px] border-[#DB7F97] w-[400px] sm:w-[424px] h-[806px] overflow-hidden">
+                <div data-aos="zoom-in" data-aos-delay="200" className="flex flex-col gap-4 border-[5px] rounded-[8px] border-[#DB7F97] w-[370px] sm:w-[424px] h-[806px] overflow-hidden">
                     <img
-                        src={super2}
+                        srcSet={super2}
                         alt="Superfly guidelines and components"
                         className="w-full h-auto object-contain"
                         loading="lazy"
@@ -79,7 +79,7 @@ const SuperFlyDetail = () => {
                     // sizes="(max-width: 585px) 100vw, 1024px"
                     />
                     <img
-                        src={super3}
+                        srcSet={super3}
                         className="w-full h-auto object-contain mt-4"
                         alt=""
                         loading="lazy"

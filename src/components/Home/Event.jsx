@@ -58,6 +58,7 @@ const Event = () => {
                                     src={event.img}
                                     alt={event.title}
                                     className="rounded-lg w-full max-w-md shadow-md"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="w-full h-56 md:h-auto md:w-1/2 text-center flex flex-col font-[outfit] items-center md:items-center justify-center md:justify-start">
