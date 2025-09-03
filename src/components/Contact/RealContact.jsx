@@ -74,7 +74,7 @@ const RealContact = () => {
                         to="tel:+34744643220"
                         className="text-[#000000] text-[20px] transition-colors"
                     >
-                        +34 744 643 220
+                        +595 981 565 865
                     </Link>
                 </div>
 
