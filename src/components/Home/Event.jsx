@@ -11,7 +11,7 @@ const events = [
         img: Event1,
         title: 'UX Design Seminar - March 2022',
         description: `This seminar has been supported by the Ministry of Technology, Information, and Communications of Paraguay.
-The seminar was addressed to people interested in UX design and covered basic topics in the field such as the definition of UX, the difference between UX and UI, accessibility, inclusive design, and design principles.`,
+The seminar was addressed to people interested in UX design and covered basic topics in the field such as the definition of UX, the difference between UX and UI, accessibility, inclusive design, and design principles. `,
         link: '',
     },
     {
@@ -50,7 +50,7 @@ const Event = () => {
                         <div
                             key={index}
                             data-aos="fade-up" // 👈 FADE UP effect here
-                            className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} items-start justify-center gap-32`}
+                            className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} items-start justify-center gap-26 sm:gap-32`}
                             style={{ marginTop: '1rem', marginBottom: '4rem' }}
                         >
                             <div className="w-full md:w-1/3 flex justify-center items-center">
